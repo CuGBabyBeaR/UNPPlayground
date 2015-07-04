@@ -1,0 +1,13 @@
+{
+    "name":"UNP-Ext",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "permissions": ["management"],
+    "browser_action": {
+        "default_title": "App Launcher",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
